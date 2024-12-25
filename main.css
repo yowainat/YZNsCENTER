@@ -168,13 +168,16 @@
             padding: 5px 10px;
             border-radius: 4px;
         }
+        .product-card {
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
+        }
         .product-card:hover {
             transform: scale(1.1); 
             box-shadow: 0 0 50px red
         }
         /* General Footer Styling */
 .footer {
-    background-color: darkgrey; /* Light gray background */
+    background-color: darkgrey; 
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
